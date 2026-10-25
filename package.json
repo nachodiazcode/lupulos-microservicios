@@ -1,0 +1,15 @@
+{
+  "name": "lupulos-microservicios",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Práctica de microservicios con el tema de Lúpulos: gateway, cervezas, reseñas y un bus de eventos.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node scripts/start-all.mjs",
+    "demo": "node scripts/demo.mjs"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
